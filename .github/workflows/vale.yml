@@ -24,9 +24,5 @@ jobs:
       uses: errata-ai/vale-action@v2.0.1
       with:
         debug: true
-        styles: |
-          https://github.com/errata-ai/write-good/releases/latest/download/write-good.zip
-          https://github.com/errata-ai/Microsoft/releases/latest/download/Microsoft.zip
-
       env:
         GITHUB_TOKEN: ${{secrets.GITHUB_TOKEN}}
